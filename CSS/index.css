@@ -1,0 +1,15 @@
+circle-avatar {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 10;
+    op: 10;
+    border-radius: 50%;
+}
+
+header {
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
