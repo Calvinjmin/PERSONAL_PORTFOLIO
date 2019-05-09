@@ -17,7 +17,7 @@
         position: absolute;
         width: 300px;
         height: 250px;
-        left: 175;
+        left: 15%;
     }
 
     .right-picture {
@@ -25,7 +25,7 @@
         position: absolute;
         width: 300px;
         height: 250px;
-        right: 175;
+        right: 15%;
     }
 
     .header-main {
@@ -46,8 +46,8 @@
 
     .text {
         text-align: left;
-        padding-left: 25vh;
-        padding-right: 25vh;
+        padding-left: 20vw;
+        padding-right: 20vw;
         color: white;
         font-family: "Trebuchet MS", Helvetica, sans-serif;
     }
@@ -75,6 +75,22 @@
     .navbar a:hover {
         background: #ddd;
         color: black;
+    }
+
+    .contact {
+        background-color: #333;
+        position: fixed;
+        width: 100%;
+        height: 17.5%;
+        bottom: 0;
+        left: 0;
+    }
+
+    .contact-headerText {
+        text-align: left;
+        color: white;
+        font-size: 1.5em;
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
     }
 
 </style>
@@ -105,5 +121,8 @@
 <img class ="left-picture" src = "./Images/UVAFriends.JPG">
 <img class="right-picture" src = "./Images/UVASolo.JPG">
 
+<div class="contact" id="contact">
+    <h1 class="contact-headerText">Contact</h1>
+</div>
 
 </html>
